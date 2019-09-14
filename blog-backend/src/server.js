@@ -2,6 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/hello', (req, res) => res.send('Hello1'));
+app.get('/hello', (req, res) => res.send('Hello'));
 
 app.listen(8000, () => console.log('Listening on port 8000'));
+/* run `npx babel-node src/server.js` to start */
